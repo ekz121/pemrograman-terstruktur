@@ -74,27 +74,6 @@
             box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
         }
 
-        /* Ikon kartu */
-        .card-icon {
-            font-size: 2rem;
-            color: #ff6b6b;
-        }
-
-        /* Konten kartu */
-        .card-content {
-            flex: 1;
-        }
-
-        .card h2 {
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-        }
-
-        .card p {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
         /* Animasi slide-in */
         @keyframes slideIn {
             from {
@@ -113,91 +92,49 @@
         .card:nth-child(3) { animation-delay: 0.3s; }
         .card:nth-child(4) { animation-delay: 0.4s; }
         .card:nth-child(5) { animation-delay: 0.5s; }
-
-        /* Responsif untuk layar kecil */
-        @media (max-width: 768px) {
-            .card {
-                flex-direction: column;
-                text-align: center;
-            }
-            .card-icon {
-                margin-bottom: 10px;
-            }
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <a href="#" class="card"><div class="card-icon">🖥️</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🖥️</div>
             <div class="card-content"><h2>PRAKTIKUM 1: Pengantar Pemrograman</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🔤</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🔤</div>
             <div class="card-content"><h2>PRAKTIKUM 2: Variabel</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🔢</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🔢</div>
             <div class="card-content"><h2>PRAKTIKUM 3: Variabel (Continue)</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🔠</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🔠</div>
             <div class="card-content"><h2>PRAKTIKUM 4: Variabel (Continue)</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🔀</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🔀</div>
             <div class="card-content"><h2>PRAKTIKUM 5: Seleksi (Selection)</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🔁</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🔁</div>
             <div class="card-content"><h2>PRAKTIKUM 6: Perulangan</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">📊</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">📊</div>
             <div class="card-content"><h2>PRAKTIKUM 7: Array</h2>
             <p>Semester 2</p></div>
         </a>
         
-        <a href="#" class="card"><div class="card-icon">🗂️</div>
+        <a href="https://ekz121.github.io/comming-soon/" class="card"><div class="card-icon">🗂️</div>
             <div class="card-content"><h2>PRAKTIKUM 8: Array (Continue)</h2>
             <p>Semester 2</p></div>
         </a>
-        
-        <a href="#" class="card"><div class="card-icon">🔡</div>
-            <div class="card-content"><h2>PRAKTIKUM 9: String</h2>
-            <p>Semester 2</p></div>
-        </a>
-        
-        <a href="#" class="card"><div class="card-icon">✍️</div>
-            <div class="card-content"><h2>PRAKTIKUM 10: String (Continue)</h2>
-            <p>Semester 2</p></div>
-        </a>
-        
     </div>
-
-    <script>
-        // Hapus elemen yang mengganggu setelah halaman dimuat
-        document.addEventListener("DOMContentLoaded", function() {
-            const elementsToRemove = [
-                "nav", "header", ".Header", "#header", "#header-wrapper", 
-                "#header-inner", ".titlewrapper", ".header-bar", 
-                "iframe[name='navbar-iframe']", ".profile-container", 
-                ".profile-card", ".post-share", ".widget.Profile", 
-                ".popup", "#sidebar_bottom"
-            ];
-
-            elementsToRemove.forEach(selector => {
-                document.querySelectorAll(selector).forEach(el => {
-                    el.style.display = "none";
-                    el.remove();
-                });
-            });
-        });
-    </script>
 </body>
 </html>
